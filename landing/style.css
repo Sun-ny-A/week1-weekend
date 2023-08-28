@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.whatever{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 1200px;
+}
+
+.item-1{
+    grid-row: 1;
+    columns: 1;
+    width: 600px;
+    height: 387px;
+    text-align: center;
+}
+
+.focus-main{
+    text-size-adjust: 300%;
+    color: black;
+}
+
+.signup{
+
+    border: 3px solid blue;
+    border-radius: 2000px;
+    max-width: 50%;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+   
+    
+    
+}
+
+.focus-button{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: 1;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+.item-2{
+    grid-row: 1;
+    grid-column: 2;
+    background-color: blue;
+    width:600px;
+}
+
+.top-right{
+    background-color: white;
+    color: white;
+    display: flex;
+    gap: 10px;
+    border: 3px solid black;
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas: '. myArea .  ';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    margin:auto;
+    
+    width: 80%;
+    height: 80%;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    
+    
+    border-radius: 0 0 0 90px;
+
+  }
+
+  .pic{
+    border: 3px dashed orange
+    
+  }
+
+
+.doubletap{
+    margin-top: 30px;
+}
+
+.dtimages{
+    margin-top: 25%;
+}
+
+
+.dtimages{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        column-gap: 10px;
+        
+        
+       
+}
+
+.dtimages > div {
+    background-color: white;
+    margin: auto;
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+
+}
+
+.dt-text{
+    text-align: center;
+}
+
+
+.f-container{
+    margin: auto;
+    width:400px;
+    height:400px;
+    background-color:white;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+    grid-column-gap: px;
+    grid-row-gap: 5px;
+  
+    
+}
+
+.box-f1{
+    background-color:lightblue;
+    padding:0px;
+    border-radius:10px;
+
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+    margin:auto;
+    display:grid;
+    width: 80%;
+    
+  }
+
+  .f-text{
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+  }
+
+  .f1-text{
+    font-size: xx-small;
+    text-align: center;
+    
+  }
+
+  .box-f2{
+    background-color:lightblue;
+    padding:0px;
+    border-radius:10px;
+
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+    margin:auto;
+    display:grid;
+    width: 80%;
+  }
+
+  .f2-text{
+    font-size: xx-small;
+  }
+
+
+
+  .box-f3{
+    background-color:lightblue;
+    padding:0px;
+    border-radius:10px;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+    margin:auto;
+    display:grid;
+    width: 80%;
+  }
+
+  .f3-text{
+    font-size: xx-small;
+  }
+
+
+
+
+  .box-f4{
+    background-color:lightblue;
+    padding:0px;
+    border-radius:10px;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+    margin:auto;
+    display:grid;
+    width: 80%;
+    
+  }
+
+  .f4-text{
+    font-size: xx-small;
+  }
+
+
+  .f-text{
+    font-size: small;
+    display: flex;
+  }
+
+  .computer1{
+    display: grid;
+    margin: auto;
+  }
+
+  .check-computer{
+    display: grid;
+    margin: auto;
+  }
+
+  .analytics{
+    display: grid;
+    margin: auto;
+
+  }
+
+  .calendar{
+    display: grid;
+    margin: auto;
+  }
+
+
+  .creditcard{
+    margin-top: 20%;
+  }
+
+
+  .solutions{
+    margin-top: 20%;
+  }
+
+  .f-container{
+    margin-top: 8%;
+  }
+
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: blue;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
