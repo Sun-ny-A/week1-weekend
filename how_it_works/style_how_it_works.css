@@ -1,0 +1,69 @@
+.body {
+    overflow-x: hidden
+}
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #057DFF;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.dot2 {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.bordericon7 {
+    border-top-left-radius: 0 !important;
+}
+
+.bordericon2 {
+    border-top-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.bordericon4 {
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.bordericon6 {
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.bordericon8 {
+    border-top-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+hr {
+    height: 4px;
+    background-color: rgb(101, 95, 95);
+}
+
+.list {
+    font-size: small;
+}
+
+.footer  {
+    background-color: #057DFF;
+    height:25%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*    don't forget to use arrows-right.svg and comment pic for buttons!!
+
+
+dashboard.svg     userr.svg         calendar.svg
+barchart.svg      comment-bubbles   file-folder.svg
+stopwatch.svg     mail2.svg         alert-bell.svg     */
